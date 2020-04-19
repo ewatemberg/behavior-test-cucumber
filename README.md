@@ -6,7 +6,7 @@ Este proyecto contiene algunos ejemplos de tests funcionales realizados con [Cuc
 
 * [Por que BDD](#Por-que-BDD)
 * [Given-When-Then](#Given-When-Then)
-* [Unit Testing vs. TDD vs. BDD](#Unit-Testing-vs.-TDD-vs.-BDD)
+* [Unit Testing vs. TDD vs. BDD](#Unit-Testing-vs-TDD-vs-BDD)
 * [Creamos y corremos Tests](#Creamos-y-corremos-Tests)
 
 ### Por que BDD?
@@ -72,7 +72,7 @@ Algunas ventajas de su utilización:
 - Las historias son más fáciles de "preparar": desglose, tarea y plan.
 - Hay más visibilidad sobre el progreso y el estado del equipo mediante informes. Los informes de pepino pueden compartirse con la administración de nivel superior, integrarse con Jenkins y configurarse con notificaciones por correo electrónico. También se puede integrar con herramientas automatizadas de compilación e implementación como los complementos de correo electrónico de Jenkins.
 
-#### Unit Testing vs. TDD vs. BDD
+### Unit Testing vs TDD vs BDD
 Las pruebas unitarias son para probar módulos individuales, mientras que TDD se basa en escribir casos de prueba primero y luego escribir código para hacer que pase. BDD se basa en las pruebas de comportamiento basadas en escenarios reales (que no se pueden probar en TDD). Los test de las API REST son un buen ejemplo.
 
 [UT vs TDD vs BDD](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/) 
@@ -83,7 +83,7 @@ Las pruebas unitarias son para probar módulos individuales, mientras que TDD se
 
 Cucumber es un framework muy poderoso para las pruebas BDD. Tiene muchas características útiles, como por ejemplo las pruebas por (tablas de datos, que pueden ser parte de los casos de prueba) o parámetros, que se pueden pasar directamente de los archivos features. Se pueden enviar múltiples conjuntos de pruebas a los casos de prueba de BDD. Los archivos features y el código relacionado son legibles y mantenibles. Además, Cucumber admite muchos lenguajes y plataformas diferentes como Ruby, Java o .NET.
 
-#### Creamos y corremos Tests
+### Creamos y corremos Tests
 
 ##### Escribiendo un **Feature File**
 En la carpeta src/main/test/resources agregamos nuestro archivo ".feature" (puede ser dentro de otra carpeta)
