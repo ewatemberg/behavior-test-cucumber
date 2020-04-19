@@ -4,9 +4,10 @@ Este proyecto contiene algunos ejemplos de tests funcionales realizados con [Cuc
 
 ## Indice
 
-* [Introducción](#Introducción)
-* [Entorno](#Entorno)
-* [Run](#Run)
+* [Por que BDD](#Por-que-BDD)
+* [Given-When-Then](#Given-When-Then)
+* [Unit Testing vs. TDD vs. BDD](#Unit-Testing-vs.-TDD-vs.-BDD)
+* [Creamos y corremos Tests](#Creamos-y-corremos-Tests)
 
 ### Por que BDD?
 BDD (Behavior Driven Development) es una metodología para desarrollar software a través de la interacción continua entre desarrolladores, QA y BA dentro del equipo ágil. 
